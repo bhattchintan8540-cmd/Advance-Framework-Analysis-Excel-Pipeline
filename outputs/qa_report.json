@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "row balance",
+      "passed": true,
+      "detail": "raw 1649, clean 1618, rejected 31"
+    },
+    {
+      "name": "unique order ids",
+      "passed": true,
+      "detail": "duplicate ids left: 0"
+    },
+    {
+      "name": "regions controlled",
+      "passed": true,
+      "detail": "['East', 'North', 'South', 'West']"
+    },
+    {
+      "name": "channels controlled",
+      "passed": true,
+      "detail": "['Online', 'Store', 'Wholesale']"
+    },
+    {
+      "name": "categories controlled",
+      "passed": true,
+      "detail": "['Furniture', 'Kitchen', 'Lighting', 'Textiles']"
+    },
+    {
+      "name": "statuses controlled",
+      "passed": true,
+      "detail": "['Cancelled', 'Completed', 'Returned']"
+    },
+    {
+      "name": "dates are real",
+      "passed": true,
+      "detail": "datetime64[us]"
+    },
+    {
+      "name": "no zero quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prices positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "discounts in range",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "net revenue identity",
+      "passed": true,
+      "detail": "max gap 0.0"
+    },
+    {
+      "name": "cost identity",
+      "passed": true,
+      "detail": "max gap 0.0"
+    },
+    {
+      "name": "margin identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exact duplicates removed",
+      "passed": true,
+      "detail": "{'exact_duplicate': 26, 'unknown_region': 1, 'bad_date': 1, 'zero_qty': 1, 'bad_price': 1, 'order_id_conflict': 1}"
+    },
+    {
+      "name": "unknown region rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bad date rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero qty rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bad price rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "conflict resolved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "negative qty corrected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ship days cleared",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old edge kept but outside window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "future edge kept but outside window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "orders match scope",
+      "passed": true,
+      "detail": "1558 vs 1558"
+    },
+    {
+      "name": "revenue finite",
+      "passed": true,
+      "detail": "2220659.7941"
+    },
+    {
+      "name": "margin finite",
+      "passed": true,
+      "detail": "0.2939781797439082"
+    },
+    {
+      "name": "cancelled switch increases revenue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shorter window lowers revenue",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

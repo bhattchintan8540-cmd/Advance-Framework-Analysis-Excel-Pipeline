@@ -1,0 +1,32 @@
+OrderID,Reason,Detail,OrderDate,Region,Status,SourceRow
+HC-100112,exact_duplicate,exact_duplicate,11/15/2024,Sout,Completed,1602.0
+HC-100049,exact_duplicate,exact_duplicate,22-Aug-24,South,Completed,1603.0
+HC-101167,exact_duplicate,exact_duplicate,29.04.2025,south,Canceled,1604.0
+HC-101111,exact_duplicate,exact_duplicate,08.01.2025,East,Completed,1605.0
+HC-101006,exact_duplicate,exact_duplicate,2025/06/11,East,Cancelled,1606.0
+HC-100294,exact_duplicate,exact_duplicate,2024/05/29,North,Completed,1607.0
+HC-101226,exact_duplicate,exact_duplicate,2024/08/19,North,Completed,1608.0
+HC-100099,exact_duplicate,exact_duplicate,02.06.2024,South,Completed,1609.0
+HC-101428,exact_duplicate,exact_duplicate,05/06/2024,West,Completed,1610.0
+HC-101016,exact_duplicate,exact_duplicate,07/23/2024,South,Cancelled,1611.0
+HC-100872,exact_duplicate,exact_duplicate,08/22/2024,North,Compleated,1612.0
+HC-100858,exact_duplicate,exact_duplicate,2024/04/18,South,Completed,1613.0
+HC-100702,exact_duplicate,exact_duplicate,2024/02/10,West,Completed,1614.0
+HC-100493,exact_duplicate,exact_duplicate,12-Jun-24,west,Completed,1615.0
+HC-100746,exact_duplicate,exact_duplicate,2024/12/24,South,Cancelled,1616.0
+HC-101235,exact_duplicate,exact_duplicate,01.02.2024,North,Completed,1617.0
+HC-101099,exact_duplicate,exact_duplicate,09.07.2024,West,COMPLETED,1618.0
+HC-101360,exact_duplicate,exact_duplicate,02/21/2024,South,Completed,1619.0
+HC-100139,exact_duplicate,exact_duplicate,30.06.2025,South,Completed,1620.0
+HC-100570,exact_duplicate,exact_duplicate,2025/01/04, North ,Completed,1621.0
+HC-101423,exact_duplicate,exact_duplicate,24.04.2025,East,Completed,1622.0
+HC-100583,exact_duplicate,exact_duplicate,16.06.2024,West,Completed,1623.0
+HC-101280,exact_duplicate,exact_duplicate,02/11/2024,North,Completed,1624.0
+HC-101386,exact_duplicate,exact_duplicate,2024/05/25,South,Completed,1625.0
+HC-100011,exact_duplicate,exact_duplicate,05.09.2025,West,Completed,1626.0
+EDGE-DUP,exact_duplicate,exact_duplicate,02/02/2024,South,Completed,1628.0
+EDGE-BADREG,unknown_region,unknown_region,01/20/2024,Atlantis,Completed,1632.0
+EDGE-BADDATE,bad_date,bad_date,yesterday,North,Completed,1633.0
+EDGE-ZERO,zero_qty,zero_qty,08/01/2024,North,Completed,1637.0
+EDGE-PRICE,bad_price,bad_price,12/01/2024,North,Completed,1645.0
+EDGE-CONF,order_id_conflict,A higher net-revenue row with the same OrderID was kept,2024-03-03,North,Completed,

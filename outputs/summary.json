@@ -1,0 +1,20 @@
+{
+  "raw_rows": 1649,
+  "clean_rows": 1618,
+  "rejected_rows": 31,
+  "net_revenue": 2220659.7941,
+  "orders": 1558,
+  "aov": 1425.3272105905007,
+  "gross_margin": 0.2939781797439082,
+  "return_rate": 0.07124518613607189,
+  "on_time_rate": 0.7551563539587491,
+  "high_value_orders": 156,
+  "high_value_cutoff": 3064.63254,
+  "low_margin_orders": 21,
+  "checks_passed": 28,
+  "workbook": "excel/Harbor_and_Co_Excel_Pipeline.xlsx",
+  "dashboards": [
+    "dashboards/01_executive_dashboard.png",
+    "dashboards/02_regional_category_dashboard.png"
+  ]
+}

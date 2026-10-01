@@ -1,0 +1,23 @@
+{
+  "raw_rows": 1649,
+  "clean_rows": 1618,
+  "rejected_rows": 31,
+  "exact_duplicates": 26,
+  "reason_counts": {
+    "exact_duplicate": 26,
+    "unknown_region": 1,
+    "bad_date": 1,
+    "zero_qty": 1,
+    "bad_price": 1,
+    "order_id_conflict": 1
+  },
+  "adjustments": {
+    "negative_qty_corrected": 1,
+    "discount_percent_scaled": 0,
+    "ship_days_cleared": 1,
+    "blank_segment_imputed": 77,
+    "unknown_segment_imputed": 0,
+    "order_id_conflict": 1
+  },
+  "balance_ok": true
+}
